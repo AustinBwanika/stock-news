@@ -82,7 +82,7 @@ description = [html.escape(news_stories["articles"][k]["description"]) for k in 
 
 
 
-account_sid = 'ACa83063af422c6d83d324a8056a9d6164'
+account_sid = os.environ.get('SID')
 auth_token = os.environ.get('AUTH_TOKEN')
 
 # 92989bf95cef8ff3a7facaf70581104a
